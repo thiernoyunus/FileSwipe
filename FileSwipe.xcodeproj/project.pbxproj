@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8FCD1F00FFC7107BD8A96C /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B104A5F76D18A1E4FA3D0D9 /* FileItem.swift */; };
+		2A23E5B784A33D5DB37C1B66 /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73357648B616937378EBA8BD /* SwipeCardView.swift */; };
+		363C308B686BC5612EA92F3C /* KeyboardSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C86E96CB93F199209236F /* KeyboardSettingsView.swift */; };
+		3B5D5D61C84B9DF0FEC25CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A551E9AF2FD6E155A54EADF9 /* Assets.xcassets */; };
+		579051E360B6EF218CE4FE6B /* FileQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BEF0FDBD4A8FA48FA927A /* FileQueueManager.swift */; };
+		88DE495734543C8FA83BCA36 /* KeyboardPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2433BD3C6BBD8873E34DC /* KeyboardPreferences.swift */; };
+		8D5D0F17207BA72E6B6CE7FB /* FileSwipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868189BACE32CE7CB6532B1B /* FileSwipeApp.swift */; };
+		D1D73D39AD2DD706153DB1A0 /* FilePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648DC5B187508392F04D634 /* FilePreviewView.swift */; };
+		EEE1817280D7ED1C7E6483F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1DBC3B8BE624689683141 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D33A6AD84E2D7F2B605D99C /* FileSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC1DBC3B8BE624689683141 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42D73C45FD5C6BFEEE871C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		56DE9A9E8BB984D033253FBB /* FileSwipe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileSwipe.entitlements; sourceTree = "<group>"; };
+		5D0C86E96CB93F199209236F /* KeyboardSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSettingsView.swift; sourceTree = "<group>"; };
+		73357648B616937378EBA8BD /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		868189BACE32CE7CB6532B1B /* FileSwipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSwipeApp.swift; sourceTree = "<group>"; };
+		9B104A5F76D18A1E4FA3D0D9 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		A551E9AF2FD6E155A54EADF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D648DC5B187508392F04D634 /* FilePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePreviewView.swift; sourceTree = "<group>"; };
+		DF3BEF0FDBD4A8FA48FA927A /* FileQueueManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileQueueManager.swift; sourceTree = "<group>"; };
+		E3D2433BD3C6BBD8873E34DC /* KeyboardPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardPreferences.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1752BBBE07C7768E692A1628 = {
+			isa = PBXGroup;
+			children = (
+				DA9B285B6E8886F2A561D1BC /* FileSwipe */,
+				F572538761696C5BE6A7C7B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B8BAE4DCC16B597BDC84F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DF3BEF0FDBD4A8FA48FA927A /* FileQueueManager.swift */,
+				E3D2433BD3C6BBD8873E34DC /* KeyboardPreferences.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		62C0D0538B89F4822190D4D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B104A5F76D18A1E4FA3D0D9 /* FileItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D31306489F7114CD86DBD5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D648DC5B187508392F04D634 /* FilePreviewView.swift */,
+				5D0C86E96CB93F199209236F /* KeyboardSettingsView.swift */,
+				73357648B616937378EBA8BD /* SwipeCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA9B285B6E8886F2A561D1BC /* FileSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				A551E9AF2FD6E155A54EADF9 /* Assets.xcassets */,
+				2EC1DBC3B8BE624689683141 /* ContentView.swift */,
+				56DE9A9E8BB984D033253FBB /* FileSwipe.entitlements */,
+				868189BACE32CE7CB6532B1B /* FileSwipeApp.swift */,
+				42D73C45FD5C6BFEEE871C0A /* Info.plist */,
+				62C0D0538B89F4822190D4D2 /* Models */,
+				60B8BAE4DCC16B597BDC84F6 /* Services */,
+				9D31306489F7114CD86DBD5A /* Views */,
+			);
+			path = FileSwipe;
+			sourceTree = "<group>";
+		};
+		F572538761696C5BE6A7C7B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D33A6AD84E2D7F2B605D99C /* FileSwipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDC36D48BC70A919B0EB673 /* FileSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE71AA5F7DDADE1B3F8D7FC7 /* Build configuration list for PBXNativeTarget "FileSwipe" */;
+			buildPhases = (
+				D1F5C7419B20F8BF157A8EDA /* Sources */,
+				6AAE5ED28F95E0CF267D14F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileSwipe;
+			packageProductDependencies = (
+			);
+			productName = FileSwipe;
+			productReference = 2D33A6AD84E2D7F2B605D99C /* FileSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B34C10F2AB38AECE44799065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8DDC36D48BC70A919B0EB673 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD646B2C8585E32BEE73B88A /* Build configuration list for PBXProject "FileSwipe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1752BBBE07C7768E692A1628;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F572538761696C5BE6A7C7B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDC36D48BC70A919B0EB673 /* FileSwipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAE5ED28F95E0CF267D14F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D5D61C84B9DF0FEC25CBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F5C7419B20F8BF157A8EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE1817280D7ED1C7E6483F6 /* ContentView.swift in Sources */,
+				1D8FCD1F00FFC7107BD8A96C /* FileItem.swift in Sources */,
+				D1D73D39AD2DD706153DB1A0 /* FilePreviewView.swift in Sources */,
+				579051E360B6EF218CE4FE6B /* FileQueueManager.swift in Sources */,
+				8D5D0F17207BA72E6B6CE7FB /* FileSwipeApp.swift in Sources */,
+				88DE495734543C8FA83BCA36 /* KeyboardPreferences.swift in Sources */,
+				363C308B686BC5612EA92F3C /* KeyboardSettingsView.swift in Sources */,
+				2A23E5B784A33D5DB37C1B66 /* SwipeCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA35466715DF4612535E247D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FileSwipe/Info.plist;
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fileswipe.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1974EB2F27ABB25A33605B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = FileSwipe/FileSwipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FileSwipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = FileSwipe;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B5629E09A28BA2B46700FB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FileSwipe/Info.plist;
+				INFOPLIST_KEY_LSUIElement = NO;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fileswipe.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAE1A31EAAA56C4A2F39A622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = FileSwipe/FileSwipe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FileSwipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSMinimumSystemVersion = 14.0;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = FileSwipe;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD646B2C8585E32BEE73B88A /* Build configuration list for PBXProject "FileSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1974EB2F27ABB25A33605B9 /* Debug */,
+				DAE1A31EAAA56C4A2F39A622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE71AA5F7DDADE1B3F8D7FC7 /* Build configuration list for PBXNativeTarget "FileSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA35466715DF4612535E247D /* Debug */,
+				B5629E09A28BA2B46700FB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B34C10F2AB38AECE44799065 /* Project object */;
+}

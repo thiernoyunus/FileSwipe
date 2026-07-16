@@ -1,0 +1,47 @@
+name: FileSwipe
+options:
+  bundleIdPrefix: com.fileswipe
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  xcodeVersion: "15.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    PRODUCT_NAME: FileSwipe
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: FileSwipe
+    INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+    INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2026"
+    INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
+    CODE_SIGN_ENTITLEMENTS: FileSwipe/FileSwipe.entitlements
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_HARDENED_RUNTIME: YES
+    COMBINE_HIDPI_IMAGES: YES
+
+targets:
+  FileSwipe:
+    type: application
+    platform: macOS
+    sources:
+      - path: FileSwipe
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.fileswipe.app
+        INFOPLIST_KEY_NSPrincipalClass: NSApplication
+        INFOPLIST_KEY_LSUIElement: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    info:
+      path: FileSwipe/Info.plist
+      properties:
+        CFBundleName: FileSwipe
+        CFBundleDisplayName: FileSwipe
+        LSApplicationCategoryType: public.app-category.utilities
+        NSHighResolutionCapable: true
+        NSSupportsAutomaticGraphicsSwitching: true

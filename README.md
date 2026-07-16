@@ -41,7 +41,7 @@ You can **undo**, **peek inside folders**, **preview images/PDFs**, and **play v
 <p align="center"><em>Inside a folder: trash one item without deleting the whole folder</em></p>
 
 <p align="center">
-  <img src="docs/screenshots/04-video.png" width="720" alt="Video still with Play button" />
+  <img src="docs/screenshots/04-video-play.png" width="720" alt="Video still with Play button" />
 </p>
 
 <p align="center"><em>Videos show a still first — press Play to watch and scrub</em></p>

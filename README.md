@@ -1,4 +1,8 @@
 <p align="center">
+  <img src=".github/assets/logo.png" width="112" alt="FileSwipe logo" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/glow.svg?title=FileSwipe&subtitle=Clean+messy+folders+by+swiping&logo=apple&mode=dark" />
     <img alt="FileSwipe" src="https://shieldcn.dev/header/glow.svg?title=FileSwipe&subtitle=Clean+messy+folders+by+swiping&logo=apple&mode=light" />

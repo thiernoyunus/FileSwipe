@@ -1,4 +1,16 @@
-# FileSwipe
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/glow.svg?title=FileSwipe&subtitle=Clean+messy+folders+by+swiping&logo=apple&mode=dark" />
+    <img alt="FileSwipe" src="https://shieldcn.dev/header/glow.svg?title=FileSwipe&subtitle=Clean+messy+folders+by+swiping&logo=apple&mode=light" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/thiernoyunus/FileSwipe"><img alt="SwiftUI macOS 14+" src="https://shieldcn.dev/badge/SwiftUI-macOS_14+-F05138.svg?logo=swift&variant=secondary" /></a>
+  <a href="https://github.com/thiernoyunus/FileSwipe/blob/main/LICENSE"><img alt="License MIT" src="https://shieldcn.dev/github/license/thiernoyunus/FileSwipe.svg?variant=secondary" /></a>
+  <a href="https://github.com/thiernoyunus/FileSwipe/commits"><img alt="Last commit" src="https://shieldcn.dev/github/last-commit/thiernoyunus/FileSwipe.svg?variant=secondary" /></a>
+  <a href="https://github.com/thiernoyunus/FileSwipe"><img alt="Stars" src="https://shieldcn.dev/github/stars/thiernoyunus/FileSwipe.svg?variant=secondary" /></a>
+</p>
 
 **Clean messy folders (like Downloads) by swiping — like Tinder, for files.**
 
